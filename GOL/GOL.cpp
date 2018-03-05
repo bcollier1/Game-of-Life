@@ -6,10 +6,25 @@
 
 using namespace std;
 
+int grid[20][20];
+int cell;
+int alive;
+int dead;
+
+void gridprint() {
+
+	//Drawing the first grid
+	for (int i = 0; i < 20; i++) {
+		for (int j = 0; j < 20; j++) {
+			cout << grid[i][j];
+		}
+		cout << "\n";
+	}
+}
+
 int main(){
 	//Variables
-	int cell;
-	int grid[20][20];
+
 	int x[100];
 	int y[100];
 
@@ -23,16 +38,10 @@ int main(){
 	cout << "How many cells would you like to make alive\n";
 	cin >> cell;
 	cout << "\n";
+	//gridprint();
 
 	do {
-
-		//Drawing the second grid
-		for (int i = 0; i < 20; i++) {
-			for (int j = 0; j < 20; j++) {
-				cout << grid[i][j];
-			}
-			cout << "\n";
-		}
+		gridprint();
 		cout << "\nWhat cell would you like to have alive? (y,x)\n\n";
 		
 		//Placing alive cells
@@ -47,4 +56,28 @@ int main(){
 	} 
 	while (true);
 	return 0;
+	void rules() {
+		for (int x = 0; x < 20; x++) {
+			for (int y = 0; y < 20; y++) {
+				if cell[x + 1][y]{
+					alive++;
+				}
+					if cell[x - 1][y]{
+						alive++;
+				}
+						if cell[x][y + 1]{
+						alive++;
+				}
+							if cell[x][y - 1]{
+								alive++;
+							}
+								if cell[x + 1][y + 1]{
+									alive++;
+								}
+									if cell[x - 1][y - 1]{
+										alive++;
+									}
+			}
+		}
+	}
 }
