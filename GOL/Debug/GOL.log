@@ -1,15 +1,2 @@
 ﻿  GOL.cpp
-GOL.cpp(59): error C2601: 'rules': local function definitions are illegal
-  GOL.cpp(25): note: this line contains a '{' which has not yet been matched
-GOL.cpp(62): error C2061: syntax error: identifier 'cell'
-GOL.cpp(62): error C2143: syntax error: missing ';' before '{'
-GOL.cpp(65): error C2061: syntax error: identifier 'cell'
-GOL.cpp(65): error C2143: syntax error: missing ';' before '{'
-GOL.cpp(68): error C2061: syntax error: identifier 'cell'
-GOL.cpp(68): error C2143: syntax error: missing ';' before '{'
-GOL.cpp(71): error C2061: syntax error: identifier 'cell'
-GOL.cpp(71): error C2143: syntax error: missing ';' before '{'
-GOL.cpp(74): error C2061: syntax error: identifier 'cell'
-GOL.cpp(74): error C2143: syntax error: missing ';' before '{'
-GOL.cpp(77): error C2061: syntax error: identifier 'cell'
-GOL.cpp(77): error C2143: syntax error: missing ';' before '{'
+  GOL.vcxproj -> D:\Brady Collier\Visual Studio\Repos\Game of Life\GOL\Debug\GOL.exe
